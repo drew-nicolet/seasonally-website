@@ -21,14 +21,14 @@ footer-links:
   email: howtofindplants@gmail.com
   facebook:
   flickr:
-  github: drew-nicolet
+  github:
   instagram:
   linkedin:
   pinterest:
   rss: icon
   twitter: DrewMeulemans
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: @HowToFindPlants # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
