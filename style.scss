@@ -110,6 +110,14 @@ img {
   max-width: 100%;
 }
 
+aside {
+background-color: #f6f6f6;
+    color: #979797;
+    border-left: grey solid 2px;
+    padding: 16px 8px;
+    border-radius: 0 8px 8px 0;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
