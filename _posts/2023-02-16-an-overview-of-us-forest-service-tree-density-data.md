@@ -5,7 +5,7 @@ title: "An Overview of U.S. Forest Service Tree Density Data"
 
 If you're an outdoorsy person and could benefit from maps that show you the detailed distribution of hundreds of species of trees across the US, then *stop what you're doing and pay attention to this post*. I'm not trying to be dramatic, it's just that the data sources discussed in this post could have a substantial impact on the way you engage with your local woods. So if that's you, grab your drink of choice, settle in, and bring your curiosity.
 
-![](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/northern-wisconsin-sugar-maple-density-map.png)
+![sugar maple density map of northern wisconsin](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/northern-wisconsin-sugar-maple-density-map.png)
 
 With that notice out of the way, here's what we'll the covering in this post: the [Tree Species Metrics](https://apps.fs.usda.gov/fsgisx01/rest/services/RDW_FHP_TreeSpeciesMetrics) and [Individual Tree Species Parameter Maps](https://usfs.maps.arcgis.com/apps/webappviewer/index.html) provided by the U.S. Forest Service. My goal is to have this post serve as a high-level overview of each dataset, so don't be surprised if later posts explore these in more detail.
 
@@ -17,13 +17,7 @@ So what do they do? These datasets provide maps that estimate the approximate de
 
 The primary function of both datasets is to offer maps that show the approximate density of a species of tree (or a group of species). Both datasets cover the continental United States and there are several hundred tree species present in each. The data is presented as a raster map, which means that it's a grid of pixels where each pixel has a value associated with it. If you're unfamiliar with raster data, you can think of it like a weather map that depicts the levels of rainfall over a region.
 
-<figure>
-
 ![high zoom of sugar maple density map u.s. forest service](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/sugar-maple-density-map-high-zoom.png)
-  
-<figcaption>Each square on the map represents a 30 by 30-meter piece of land.</figcaption>   
-
-</figure>
 
 
 So the maps help you approximate the density of a species of tree in your local area. The data presented on the maps has a unit of trees per acre, and there are two separate metrics used by the U.S. Forest Service. The two metrics are:
@@ -45,14 +39,7 @@ There are many tools they've used to build these datasets, but the most importan
 
 So if we took satellite photos of a woodlot every week for an entire year, we could use those photos to analyze the NDVI trends, as different species have different photosynthesis patterns over the seasons.
 
-<figure>
-
 ![satellite image of northern WI showing different tree colors](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/satellite-image-of-forest-showing-different-colors.png)
-  
-<figcaption>Note the differences between the different trees found. The yellow trees likely represent tamarack trees, as they turn yellow and lose their needles each fall.</figcaption>
-
-</figure>
-
 
 From what I've been able to gather, the USFS did use a bunch of other metrics (like soil patterns, water availability, etc.) to produce these datasets, but they're frankly over my head.
 
@@ -62,13 +49,7 @@ The next part of this post will cover the Tree Species Metrics dataset, and I'll
 
 Here's the [main page you'll want to bookmark](https://apps.fs.usda.gov/fsgisx01/rest/services/RDW_FHP_TreeSpeciesMetrics) if you're interested in using this dataset.
 
-<figure>
-
 ![tree species metrics u.s. forest service home page](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/tree-species-metrics-home-screen.png)
-  
-<figcaption>Don't be intimidated by the wall of links: there's gold in here.</figcaption>
-
-</figure>
 
 Yeah, I know. It's not the prettiest website in the world. But bear with me, as this dataset is well worth the pain of reading that wall of links. You might notice this right away: in the middle of each link is the common name of the tree species, and it also includes the metric that map represents (i.e. Stand Density Index or Basal Area). You'll also see that each link ends in 2002, but more on that later.
 
@@ -86,13 +67,7 @@ Assuming that you’re still on the page I linked to earlier (the great wall o�
 
 You’ll then be taken to a page that has a few rows of links at the top. To bring up a map showing the density of that species of tree, you’ll want to find the ‘ArcGIS Online Map Viewer’ link that’s found in the row that starts with ‘View In:’.
 
-<figure>
-
 ![highlighting the link to click on a tree species page to bring up a map](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/tree-species-screen-showing-link-to-map.png)
-  
-<figcaption>Click the link the arrow is pointing to in order to bring up a map showing the density of that tree.</figcaption>
-
-</figure>
 
 Clicking this link will then open a map in a new tab. The map will open to show the entire range for this species across the continental U.S., so you may have to zoom in a bit to get to your area. But once you’ve zoomed in, you’ll be able to explore in fine detail the approximate density of that species of tree.
 
@@ -100,23 +75,11 @@ Clicking this link will then open a map in a new tab. The map will open to show 
 
 Like I mentioned earlier, the data values you see on the map represent the approximate density of that species in trees per acre. This dataset uses a black and white color scale to represent the values, where white signal represents a higher density than black signal.
 
-<figure>
-
 ![higher density signal is white while lower density signal is black](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/signal-strength-highlighted-tree-density.png)
-  
-<figcaption>The darker signal in the upper right is relatively low density. The lighter signal in the lower-left is the strongest signal on the screen.</figcaption>
-
-</figure>
 
 Here’s an important thing to keep in mind about this scale: the value that the white signal represents (the highest value), is different for each tree species. Furthermore, it represents the highest value found in the entire dataset for that tree. So if you’re viewing a species of tree that doesn’t ever achieve great density, then the color of the signal might make it seem like that tree has a greater density than reality.
 
-<figure>
-
 ![max density numbers for tamarack trees](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/max-values-of-tree-density-layer.png)
-  
-<figcaption>The max density value is found on the home page for a tree. Here the max density for tamarack is 578 trees/acre. This is quite normal, but a rare tree might have a max below 100.</figcaption>
-
-</figure>
 
 Secondly, it’s always important to remember that these maps are more than 20 years old. So anything that has happened since 2002, such as logging, forest fires, or tornado damage, will not be represented by this dataset. Generally speaking, satellite imagery is your friend here, as you can use it to quickly check whether the forest appears to still be in good condition.
 
@@ -148,13 +111,7 @@ While this dataset offers interesting metrics that can be used in many creative 
 
 When compared to the other dataset, this dataset has all of the trees together in a single interface, so you don’t have to navigate a bunch of different links. To find this list of trees, go to the pane on the left and click the ‘Layer List’ button, which is the icon with the three stacked squares. Second, you’ll note that the trees from the same genus/family(?) are grouped together. So if you want to add the ‘white ash’ species to the map, you’ll first need to expand the ‘Ash’ layer group.
 
-<figure>
-
 ![arrow pointing to layer list icon for individual tree species parameter maps interface](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/tree-species-parameter-maps-layer-list-hightlighted.png)
-  
-<figcaption>Click on the icon highlighted to see the full list of tree species covered.</figcaption>
-
-</figure>
 
 Here’s the slightly tricky part about adding trees to the map with this tool: a layer will only be visible on the screen if the entire chain of check-boxes are checked. For example, say you want to load the Quadratic Mean Diameter layer for the ‘white ash’ species onto the map. In order to do this, you’ll need to ensure that each of the following check-boxes must be checked:
 
@@ -162,14 +119,7 @@ Here’s the slightly tricky part about adding trees to the map with this tool: 
 - white ash - *for the species*
 - Quadratic Mean Diameter - *the metric you want to show*
 
-<figure>
-
 ![white ash will only pull up if all three checkboxes are clicked](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/white-ash-tree-layer-menu.png)
-
-<figcaption>Only if all three of the highlighted checkboxes are clicked, will the white ash basal area layer appear on the map. Just disabling the 'Ash' layer group option will remove it from the map.</figcaption>
-
-</figure>
-
 
 Only once all three of those boxes are checked will the data load on the screen. This setup does make sense logically, it just takes a little getting used to.
 
@@ -185,24 +135,11 @@ I’ve also noticed that the tool for viewing the tree layers for this dataset i
 
 Without a doubt, my favorite part about this dataset is the additional metrics they make available. Whereas the 2002 dataset is allowing us to only measure the volume of a tree species for that woodlot, here we can ask much more interesting questions. These questions can be extremely relevant for anyone that spends time in the outdoors, as they help us determine the characteristics of the woods before we step foot in them.
 
-<figure>
-
 ![list of the layers available for the white ash species of tree](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/individual-species-layers-available-white-ash.png)
-  
-<figcaption>Each individual species of tree has these five layers available.</figcaption>
-
-</figure>
 
 For example, I’m based in northeastern Wisconsin and spend a decent amount of time in two different areas of public lands: the western shore of Green Bay and the Nicolet National Forest. Just from my experience on the ground I could tell you that the forests of the former are much younger than the forests of the latter. And this is corroborated when I pull up the QMD layer for the white ash species. The vast majority of the signal on the shore of the Green Bay is green (indicating smaller tree size), while the Nicolet National Forest signal has much more orange and red signal (indicating more mature trees).
 
-<figure>
-
 ![map showing quadratic mean diamter of white ash in northern Wisconsin](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/white-ash-tree-mean-diameter-northern-wisconsin.png)
-  
-<figcaption>The green signal means a smaller diameter, while the red and orange signal mean larger diameter. The Nicolet National Forest is in the upper-left of the screenshot, and the Green Bay Shore is to the lower-right region.</figcaption>
-
-</figure>
-
 
 The last thing to note is that this dataset is much more recent than the 2002 dataset. I believe this data is from around 2015, but I’ll have to dig around to confirm whether this is the case.
 
