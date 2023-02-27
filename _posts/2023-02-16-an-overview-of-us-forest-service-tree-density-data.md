@@ -5,13 +5,7 @@ title: "An Overview of U.S. Forest Service Tree Density Data"
 
 If you're an outdoorsy person and could benefit from maps that show you the detailed distribution of hundreds of species of trees across the US, then *stop what you're doing and pay attention to this post*. I'm not trying to be dramatic, it's just that the data sources discussed in this post could have a substantial impact on the way you engage with your local woods. So if that's you, grab your drink of choice, settle in, and bring your curiosity.
 
-<figure>
-
 ![](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/northern-wisconsin-sugar-maple-density-map.png)
-  
-<figcaption>A map showing the density of sugar maple trees in Northern Wisconsin.</figcaption>
-
-</figure>
 
 With that notice out of the way, here's what we'll the covering in this post: the [Tree Species Metrics](https://apps.fs.usda.gov/fsgisx01/rest/services/RDW_FHP_TreeSpeciesMetrics) and [Individual Tree Species Parameter Maps](https://usfs.maps.arcgis.com/apps/webappviewer/index.html) provided by the U.S. Forest Service. My goal is to have this post serve as a high-level overview of each dataset, so don't be surprised if later posts explore these in more detail.
 
