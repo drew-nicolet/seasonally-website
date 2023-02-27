@@ -7,7 +7,7 @@ If you're an outdoorsy person and could benefit from maps that show you the deta
 
 <figure>
 
-![sugar maple density map of northern WI](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/northern-wisconsin-sugar-maple-density-map.png)
+![](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/northern-wisconsin-sugar-maple-density-map.png)
   
 <figcaption>A map showing the density of sugar maple trees in Northern Wisconsin.</figcaption>
 
