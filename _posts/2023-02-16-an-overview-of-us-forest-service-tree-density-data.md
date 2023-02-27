@@ -8,6 +8,7 @@ If you're an outdoorsy person and could benefit from maps that show you the deta
 <figure>
 
 ![sugar maple density map of northern WI](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/northern-wisconsin-sugar-maple-density-map.png)
+  
 <figcaption>A map showing the density of sugar maple trees in Northern Wisconsin.</figcaption>
 
 </figure>
@@ -25,6 +26,7 @@ The primary function of both datasets is to offer maps that show the approximate
 <figure>
 
 ![high zoom of sugar maple density map u.s. forest service](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/sugar-maple-density-map-high-zoom.png)
+  
 <figcaption>Each square on the map represents a 30 by 30-meter piece of land.</figcaption>   
 
 </figure>
@@ -52,6 +54,7 @@ So if we took satellite photos of a woodlot every week for an entire year, we co
 <figure>
 
 ![satellite image of northern WI showing different tree colors](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/satellite-image-of-forest-showing-different-colors.png)
+  
 <figcaption>Note the differences between the different trees found. The yellow trees likely represent tamarack trees, as they turn yellow and lose their needles each fall.</figcaption>
 
 </figure>
@@ -68,6 +71,7 @@ Here's the [main page you'll want to bookmark](https://apps.fs.usda.gov/fsgisx01
 <figure>
 
 ![tree species metrics u.s. forest service home page](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/tree-species-metrics-home-screen.png)
+  
 <figcaption>Don't be intimidated by the wall of links: there's gold in here.</figcaption>
 
 </figure>
@@ -91,6 +95,7 @@ You’ll then be taken to a page that has a few rows of links at the top. To bri
 <figure>
 
 ![highlighting the link to click on a tree species page to bring up a map](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/tree-species-screen-showing-link-to-map.png)
+  
 <figcaption>Click the link the arrow is pointing to in order to bring up a map showing the density of that tree.</figcaption>
 
 </figure>
@@ -104,6 +109,7 @@ Like I mentioned earlier, the data values you see on the map represent the appro
 <figure>
 
 ![higher density signal is white while lower density signal is black](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/signal-strength-highlighted-tree-density.png)
+  
 <figcaption>The darker signal in the upper right is relatively low density. The lighter signal in the lower-left is the strongest signal on the screen.</figcaption>
 
 </figure>
@@ -113,6 +119,7 @@ Here’s an important thing to keep in mind about this scale: the value that the
 <figure>
 
 ![max density numbers for tamarack trees](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/max-values-of-tree-density-layer.png)
+  
 <figcaption>The max density value is found on the home page for a tree. Here the max density for tamarack is 578 trees/acre. This is quite normal, but a rare tree might have a max below 100.</figcaption>
 
 </figure>
@@ -150,6 +157,7 @@ When compared to the other dataset, this dataset has all of the trees together i
 <figure>
 
 ![arrow pointing to layer list icon for individual tree species parameter maps interface](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/tree-species-parameter-maps-layer-list-hightlighted.png)
+  
 <figcaption>Click on the icon highlighted to see the full list of tree species covered.</figcaption>
 
 </figure>
@@ -163,6 +171,7 @@ Here’s the slightly tricky part about adding trees to the map with this tool: 
 <figure>
 
 ![white ash will only pull up if all three checkboxes are clicked](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/white-ash-tree-layer-menu.png)
+
 <figcaption>Only if all three of the highlighted checkboxes are clicked, will the white ash basal area layer appear on the map. Just disabling the 'Ash' layer group option will remove it from the map.</figcaption>
 
 </figure>
@@ -185,6 +194,7 @@ Without a doubt, my favorite part about this dataset is the additional metrics t
 <figure>
 
 ![list of the layers available for the white ash species of tree](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/individual-species-layers-available-white-ash.png)
+  
 <figcaption>Each individual species of tree has these five layers available.</figcaption>
 
 </figure>
@@ -194,6 +204,7 @@ For example, I’m based in northeastern Wisconsin and spend a decent amount of 
 <figure>
 
 ![map showing quadratic mean diamter of white ash in northern Wisconsin](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/an-overview-of-us-forest-service-tree-density-data/white-ash-tree-mean-diameter-northern-wisconsin.png)
+  
 <figcaption>The green signal means a smaller diameter, while the red and orange signal mean larger diameter. The Nicolet National Forest is in the upper-left of the screenshot, and the Green Bay Shore is to the lower-right region.</figcaption>
 
 </figure>
