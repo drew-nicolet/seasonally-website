@@ -5,7 +5,7 @@ title: "How to Find Ramps in the Wild"
 
 There are few things I enjoy more than foraging for ramps in the spring. Dense carpets of greens popping up after a long winter, the woods coming alive, and beautiful spring weather: it's all fantastic.
 
-I'm incredible fortunate to spend time in places like this:
+I'm incredibly fortunate to spend time in places like this:
 
 ![dense carpet of wild ramps coving the ground in spring](https://d3uz6qsgj5hu6o.cloudfront.net/how-to-find-plants/images/how-to-find-ramps-in-the-wild/sugar-maple-stand-with-ramps-covering-ground-in-spring.png)
 
