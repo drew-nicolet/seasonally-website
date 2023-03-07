@@ -3,9 +3,9 @@ layout: post
 title: "Introducing the Seasonally Chrome Extension"
 ---
 
-I'm very happy to announce that the first version of the Seasonally chrome extension is now available for download. Here's a link to the listing in the Chrome Web Store:
+I'm very happy to announce that the first version of the Seasonally chrome extension is now available for installation. Here's a link to the listing in the Chrome Web Store:
 
-[Download the Seasonally Chrome Extension 🍂](https://chrome.google.com/webstore/detail/seasonally/ebgedpnjikcdeimaamkblpedpmiigfjc?hl=en)
+[Install the Seasonally Chrome Extension 🍂](https://chrome.google.com/webstore/detail/seasonally/ebgedpnjikcdeimaamkblpedpmiigfjc?hl=en)
 
 ## What the Seasonally Extension Does
 
