@@ -118,6 +118,19 @@ background-color: #f6f6f6;
     border-radius: 0 8px 8px 0;
 }
 
+.chrome-button{
+        display: inline-block;
+        padding: 10px 20px;
+	margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #008b40;
+        border-radius: 4px;
+        outline: none;
+        font-weight: bold;
+      }
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
