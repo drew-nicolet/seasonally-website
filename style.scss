@@ -110,29 +110,236 @@ img {
   max-width: 100%;
 }
 
+
+
+
+h1 {
+  font-size: larger;
+}
+
+h2 {
+  font-size: larger;
+}
+
+
+body p,
+body ul li {
+  font-size: medium;
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.challenges {
+  margin-top: 32px;
+}
+
+.challenges .challenge-card {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.challenge-card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.challenge-card h4 {
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.challenge-card p {
+  font-size: 0.9rem;
+  margin-bottom: 32px;
+}
+
+.benefits {
+  margin-top: 32px;
+}
+
+.benefits .benefit-card {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.benefit-card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.benefit-card h4 {
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.benefit-card p {
+  font-size: 0.9rem;
+  margin-bottom: 32px;
+}
+
+.product-introduction {
+  display: grid;
+  grid-template-areas:
+    'heading'
+    'product'
+    'intro-para'
+    'list'
+    'link';
+}
+
+.product-introduction img {
+  grid-area: product;
+  place-self: center;
+  align-self: center;
+}
+
+.product-introduction h2 {
+  grid-area: heading;
+}
+
+.product-introduction p {
+  grid-area: intro-para;
+}
+
+.product-introduction ul {
+  grid-area: list;
+}
+
+.product-introduction a {
+  grid-area: link;
+}
+
+@media screen and (min-width: 700px) {
+  .product-introduction {
+    grid-template-columns: 280px 32px auto;
+    grid-template-areas:
+      'heading . product'
+      'intro-para . product'
+      'list . product'
+      'link link link';
+  }
+
+  .product-introduction p {
+    margin-bottom: 4px;
+  }
+
+  .product-introduction h2 {
+    margin-bottom: 4px;
+  }
+
+  .opening-section {
+    display: grid;
+    grid-template-columns: 280px 32px auto;
+    grid-template-areas:
+      'title . video'
+      'subheading . video'
+      'button . video';
+  }
+
+  .opening-section iframe {
+    grid-area: video;
+    place-self: center;
+  }
+
+  .opening-section h1 {
+    grid-area: title;
+    margin-bottom: 8px;
+    place-self: center;
+  }
+
+  .opening-section p {
+    grid-area: subheading;
+    margin: 0;
+  }
+
+  .opening-section a.chrome-button {
+    grid-area: button;
+    margin: 8px auto;
+  }
+
+  .challenges {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .challenges .challenge-card {
+    max-width: 200px;
+    margin: 8px;
+  }
+
+  .benefits .benefit-card {
+    display: grid;
+    max-width: 850px;
+    margin-bottom: 72px;
+  }
+
+  .benefit-card:nth-child(odd) {
+    grid-template-columns: 300px 32px auto;
+    grid-template-areas:
+      'heading . image'
+      'subheading . image';
+  }
+
+  .benefit-card:nth-child(even) {
+    grid-template-columns: auto 32px 300px;
+    grid-template-areas:
+      'image . heading'
+      'image . subheading';
+  }
+
+  .benefit-card img {
+    grid-area: image;
+    place-self: center;
+    align-self: center;
+  }
+
+  .benefit-card h4 {
+    grid-area: heading;
+    place-self: center;
+    align-self: end;
+  }
+
+  .benefit-card p {
+    grid-area: subheading;
+    place-self: center;
+    align-self: start;
+  }
+}
+
 aside {
-background-color: #f6f6f6;
-    color: #979797;
-    border-left: grey solid 2px;
-    padding: 16px 8px;
-    border-radius: 0 8px 8px 0;
+  background-color: #f6f6f6;
+  color: #979797;
+  border-left: grey solid 2px;
+  padding: 16px 8px;
+  border-radius: 0 8px 8px 0;
 }
 
 .chrome-button {
-        display: inline-block;
-        padding: 10px 20px;
-	margin: 24px auto 12px;
-        text-align: center;
-        text-decoration: none;
-        color: #ffffff;
-        background-color: #008b40;
-        border-radius: 4px;
-        outline: none;
-        font-weight: 700;
-      }
+  display: grid;
+  place-self: center;
+  max-width: 280px;
+  padding: 10px 20px;
+  margin: 32px auto;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #008b40;
+  border-radius: 4px;
+  outline: none;
+  font-weight: 700;
+}
 
 .chrome-button:hover {
-	color: #ffffff
+  color: #ffffff;
 }
 
 // Fixes images in popup boxes from Google Translate
